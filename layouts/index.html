@@ -2,6 +2,7 @@
 	<main>
 	<h1 class="text-red-900 text-5xl"> Hello </h1>
 
+
 <ul>
 {{ range $.Site.Home.AllTranslations }}
 <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
@@ -11,22 +12,25 @@
   {{/*  <a href="{{ .Permalink }}">{{ .Lang }}: {{ .Title }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>  */}}
 {{ "testimonial.md" | relLangURL }}
 
-	{{ partial "testimonial.html" (.Site.GetPage "testimonial.md")}}
+	{{/*  {{ partial "testimonial.html" (.Site.GetPage "testimonial.md")}}  */}}
+	{{ partial "testimonial.html" .}}
+
+	{{/*  {{ $faqs.Params.question }}  */}}
 
 	{{/*  {{ $faqs := .Site.GetPage "/faq" }}
-	{{ $faqs.Params.question }}
-
-	{{ $fag.Get(0).Params.question }}
-
 	{{ range $faqs }}
 		{{.Title}}
-	{{ end }}
+	{{ end }}  */}}
+	{{/*  {{ range (where site.RegularPages "Type" "in" "faq") }}
+		{{.Params.question}}
+	{{ end }}   */}}
 
-	<br>  */}}
+
+	<br>
 
 	{{ with .Site.GetPage "/faq/question1.md" }}{{ .Params.question }} {{.Content}} {{ end }}
 
-	{{/*  {{ partial "faq.html" (.Site.GetPage "/faq")}}  */}}
+	{{ partial "faq.html" .}}
 	</main>
 {{ end }}
 
