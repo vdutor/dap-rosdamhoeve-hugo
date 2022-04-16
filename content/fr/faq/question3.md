@@ -1,5 +1,5 @@
 ---
-question: kan ik ook gewoon langskomen?
+question: Puis-je juste passer?
 ---
 
-We werken op afspraak, zowel voor een routineonderzoek, een thuisbezoek of een operatie. Bel ons op 📞 09 328 16 69, stuur ons een email of boek bij voorkeur zelf online je afspraak:
+Nous travaillons sur rendez-vous, que ce soit pour un examen de routine, une visite à domicile ou une opération. Appelez-nous au 📞 09 328 16 69, envoyez-nous un mail ou de préférence prenez rendez-vous en ligne

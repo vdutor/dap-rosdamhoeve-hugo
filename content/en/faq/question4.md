@@ -1,5 +1,5 @@
 ---
-question: welke huisdieren behandelen jullie (niet)?
+question: Which animal do you (not) treat?
 ---
 
-De praktijk is voornamelijk gericht op het behandelen (verzorging & operaties) van kleine huisdieren, zoals katten 🐈, honden 🐕 en konijnen 🐇. Voor alle andere huisdieren 🐓🐁🦒🐳 proberen we je ook zo goed mogelijk te helpen, of sturen we door naar specialisten ter zake. 
+The practice is mainly focused on the treatment (care & operations) of small pets, such as cats 🐈, dogs 🐕 and rabbits . For all other pets 🐓🐁🦒🐳 we also try to help you as best as possible, or we send you to specialists in the field.

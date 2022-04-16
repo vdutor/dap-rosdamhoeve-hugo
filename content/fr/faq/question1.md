@@ -1,8 +1,8 @@
 ---
-question: openingsuren?
+question: Heures d'ouverture?
 ---
 
-Maandag tot vrijdag, tussen 9u en 19u.
-Boek bij voorkeur zelf online je afspraak.
-Aarzel echter niet om bij twijfel te bellen op 📞  09 328 16 69 of een berichtje in te spreken op onze voicemail, dan bellen we je zo snel mogelijk terug.
-Buiten onze openingsuren kan je voor vragen en inlichtingen ook e-mailen (info@katenko.be) of een berichtje achterlaten op onze facebook-pagina.
+Du lundi au vendredi, de 9h à 19h.
+De préférence, prenez vous-même votre rendez-vous en ligne.
+Cependant, en cas de doute, n'hésitez pas à appeler le 📞 09 328 16 69 ou à laisser un message sur notre messagerie vocale, et nous vous rappellerons dans les plus brefs délais.
+En dehors de nos heures d'ouverture, vous pouvez également envoyer un e-mail pour des questions et des informations (pascale.wantiez@telenet.be) ou laisser un message sur notre page Facebook.

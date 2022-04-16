@@ -1,5 +1,5 @@
 ---
-question: kan ik ook gewoon langskomen?
+question: Can I just pass by?
 ---
 
-We werken op afspraak, zowel voor een routineonderzoek, een thuisbezoek of een operatie. Bel ons op 📞 09 328 16 69, stuur ons een email of boek bij voorkeur zelf online je afspraak:
+We work by appointment, whether for a routine examination, a home visit or an operation. Call us on 📞 09 328 16 69, send us an email or preferably book your appointment online:

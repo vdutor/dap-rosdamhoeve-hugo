@@ -1,5 +1,5 @@
 ---
-question: komen jullie ook op huisbezoek?
+question: Venez-vous aussi en visite à domicile?
 ---
 
-Wij doen ook huisbezoeken. In de praktijk hebben we al het nodige materiaal ter beschikking, dus bij voorkeur kom je met je huisdier tot bij ons. Lukt dat niet, dan komen we tot bij jou tegen een iets hoger tarief dan een praktijkconsultatie.
+Nous effectuons également des visites à domicile. En pratique nous disposons de tout le matériel nécessaire, il est donc préférable de venir chez nous avec votre animal de compagnie. Si cela n'est pas possible, nous viendrons à vous à un tarif légèrement supérieur à celui d'une consultation pratique.

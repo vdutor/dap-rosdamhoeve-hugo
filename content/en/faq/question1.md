@@ -1,8 +1,8 @@
 ---
-question: openingsuren?
+question: Opening hours?
 ---
 
-Maandag tot vrijdag, tussen 9u en 19u.
-Boek bij voorkeur zelf online je afspraak.
-Aarzel echter niet om bij twijfel te bellen op 📞  09 328 16 69 of een berichtje in te spreken op onze voicemail, dan bellen we je zo snel mogelijk terug.
-Buiten onze openingsuren kan je voor vragen en inlichtingen ook e-mailen (info@katenko.be) of een berichtje achterlaten op onze facebook-pagina.
+Monday to Friday, between 9am and 7pm.
+Preferably book your appointment online yourself.
+However, if in doubt, do not hesitate to call 📞 09 328 16 69 or leave a message on our voicemail, and we will call you back as soon as possible.
+Outside our opening hours you can also e-mail for questions and information (info@katenko.be) or leave a message on our Facebook page.

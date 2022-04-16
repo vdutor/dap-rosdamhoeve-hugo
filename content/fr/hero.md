@@ -1,4 +1,4 @@
 ---
-title: Vet Rosdamhoeve
-slogan: A vet with a heart for people and animals
+title: Vet. Med. Rosdamhoeve
+slogan: Un vétérinaire au coeur des hommes et des animaux
 ---
