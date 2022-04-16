@@ -1,2 +1,14 @@
 [customer]
 other = "Costumer"
+
+[about]
+other = "about"
+
+[contact]
+other = "contact"
+
+[services]
+other = "services"
+
+[FAQ]
+other = "FAQ"

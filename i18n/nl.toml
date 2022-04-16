@@ -1,2 +1,14 @@
 [customer]
-other = "Klant"
+other = "klant"
+
+[about]
+other = "over"
+
+[contact]
+other = "contact"
+
+[services]
+other = "diensten"
+
+[FAQ]
+other = "vragen"
