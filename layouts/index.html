@@ -1,16 +1,8 @@
 {{ define "main" }}
 	<main>
-	<h1 class="text-red-900 text-5xl"> Hello </h1>
 
 
-<ul>
-{{ range $.Site.Home.AllTranslations }}
-<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-{{ end }}
-</ul>
-
-  {{/*  <a href="{{ .Permalink }}">{{ .Lang }}: {{ .Title }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>  */}}
-{{ "testimonial.md" | relLangURL }}
+	{{ partial "hero.html" .}}
 
 	{{/*  {{ partial "testimonial.html" (.Site.GetPage "testimonial.md")}}  */}}
 	{{ partial "testimonial.html" .}}
@@ -26,11 +18,14 @@
 	{{ end }}   */}}
 
 
-	<br>
-
-	{{ with .Site.GetPage "/faq/question1.md" }}{{ .Params.question }} {{.Content}} {{ end }}
-
 	{{ partial "faq.html" .}}
+
+	<ul>
+	{{ range $.Site.Home.AllTranslations }}
+	<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+	{{ end }}
+
+</ul>
 	</main>
 {{ end }}
 
