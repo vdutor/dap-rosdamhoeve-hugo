@@ -2,192 +2,192 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/about/</loc>
+    <loc>vdutor.github.io/dap-rosdamhoeve-hugo/en/about/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/about/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/nl/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/about/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/fr/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/about/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/en/about/"
                 />
   </url><url>
-    <loc>/en/faq/question1/</loc>
+    <loc>vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/faq/question1/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/nl/faq/question1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/faq/question1/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/fr/faq/question1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/faq/question1/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question1/"
                 />
   </url><url>
-    <loc>/en/faq/question2/</loc>
+    <loc>vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/faq/question2/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/nl/faq/question2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/faq/question2/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/fr/faq/question2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/faq/question2/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question2/"
                 />
   </url><url>
-    <loc>/en/faq/question3/</loc>
+    <loc>vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question3/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/faq/question3/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/nl/faq/question3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/faq/question3/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/fr/faq/question3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/faq/question3/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question3/"
                 />
   </url><url>
-    <loc>/en/faq/question4/</loc>
+    <loc>vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question4/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/faq/question4/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/nl/faq/question4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/faq/question4/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/fr/faq/question4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/faq/question4/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question4/"
                 />
   </url><url>
-    <loc>/en/testimonial/</loc>
+    <loc>vdutor.github.io/dap-rosdamhoeve-hugo/en/testimonial/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/testimonial/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/nl/testimonial/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/testimonial/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/fr/testimonial/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/testimonial/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/en/testimonial/"
                 />
   </url><url>
-    <loc>/en/categories/</loc>
+    <loc>vdutor.github.io/dap-rosdamhoeve-hugo/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/categories/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/nl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/categories/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/en/categories/"
                 />
   </url><url>
-    <loc>/en/</loc>
+    <loc>vdutor.github.io/dap-rosdamhoeve-hugo/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/nl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/en/"
                 />
   </url><url>
-    <loc>/en/faq/</loc>
+    <loc>vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/faq/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/nl/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/faq/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/fr/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/faq/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/"
                 />
   </url><url>
-    <loc>/en/tags/</loc>
+    <loc>vdutor.github.io/dap-rosdamhoeve-hugo/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/tags/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/nl/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/tags/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/en/tags/"
                 />
   </url><url>
-    <loc>/en/hero/</loc>
+    <loc>vdutor.github.io/dap-rosdamhoeve-hugo/en/hero/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="/nl/hero/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/nl/hero/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/hero/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/fr/hero/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/hero/"
+                href="vdutor.github.io/dap-rosdamhoeve-hugo/en/hero/"
                 />
   </url>
 </urlset>
