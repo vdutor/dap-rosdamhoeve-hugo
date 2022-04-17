@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on DAP Rosdamhoeve</title>
-    <link>/en/categories/</link>
+    <link>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/categories/</link>
     <description>Recent content in Categories on DAP Rosdamhoeve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>nl-be</language><atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>nl-be</language><atom:link href="https://vdutor.github.io/dap-rosdamhoeve-hugo/en/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

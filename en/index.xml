@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DAP Rosdamhoeve</title>
-    <link>/en/</link>
+    <link>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/</link>
     <description>Recent content on DAP Rosdamhoeve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>nl-be</language><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <language>nl-be</language><atom:link href="https://vdutor.github.io/dap-rosdamhoeve-hugo/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/en/about/</link>
+      <link>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/about/</guid>
+      <guid>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/en/faq/question1/</link>
+      <link>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/faq/question1/</guid>
+      <guid>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question1/</guid>
       <description>Monday to Friday, between 9am and 7pm. Preferably book your appointment online yourself. However, if in doubt, do not hesitate to call 📞 09 328 16 69 or leave a message on our voicemail, and we will call you back as soon as possible. Outside our opening hours you can also e-mail for questions and information (info@katenko.be) or leave a message on our Facebook page.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/en/faq/question2/</link>
+      <link>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/faq/question2/</guid>
+      <guid>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question2/</guid>
       <description>We also do home visits. In practice we have all the necessary equipment available, so it is preferable to come to us with your pet. If that is not possible, we will come to you at a slightly higher rate than a practical consultation. {{ .Site.Data.info.mobile | markdownify}}</description>
     </item>
     
     <item>
       <title></title>
-      <link>/en/faq/question3/</link>
+      <link>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/faq/question3/</guid>
+      <guid>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question3/</guid>
       <description>We work by appointment, whether for a routine examination, a home visit or an operation. Call us on 📞 09 328 16 69, send us an email or preferably book your appointment online:</description>
     </item>
     
     <item>
       <title></title>
-      <link>/en/faq/question4/</link>
+      <link>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/faq/question4/</guid>
+      <guid>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question4/</guid>
       <description>The practice is mainly focused on the treatment (care &amp;amp; operations) of small pets, such as cats 🐈, dogs 🐕 and rabbits . For all other pets 🐓🐁🦒🐳 we also try to help you as best as possible, or we send you to specialists in the field.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/en/testimonial/</link>
+      <link>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/testimonial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/testimonial/</guid>
+      <guid>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/testimonial/</guid>
       <description>When we moved to St-Martens-Latem in 2007, I was looking for a vet for my dog ​​and cats. An acquaintance recommended Pascale to me. Trust is very important to me and I have certainly found that with Pascale. My pets are really a part of my life, and when they are sick, Pascale is always there for them. Pascale, thank you for all the years that I can count on you!</description>
     </item>
     
     <item>
       <title>Vet Rosdamhoeve</title>
-      <link>/en/hero/</link>
+      <link>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/hero/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/hero/</guid>
+      <guid>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/hero/</guid>
       <description></description>
     </item>
     
