@@ -3,8 +3,8 @@
     "dev:css": "npx tailwindcss -i input.css -o static/css/output.css -w",
     "dev:hugo": "hugo server",
     "dev": "run-p dev:*",
-    "build:css": "NODE_ENV=production npx tailwindcss -i input.css -o static/css/output.css",
-    "build:hugo": "hugo",
+    "build:css": "NODE_ENV=production npx tailwindcss -i input.css -o static/css/output.css -m",
+    "build:hugo": "HUGO_ENV=production hugo",
     "build": "run-s build:*"
   },
   "devDependencies": {

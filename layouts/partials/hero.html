@@ -1,6 +1,11 @@
 {{ with .Site.GetPage "hero.md" }}
 
+{{ if eq (os.Getenv "HUGO_ENV") "production"}}
+<div class="flex flex-col justify-center w-screen h-screen bg-[url('/dap-rosdamhoeve-hugo/img/bg-image.jpg')] bg-center bg-cover">
+{{ else }}
 <div class="flex flex-col justify-center w-screen h-screen bg-[url('/img/bg-image.jpg')] bg-center bg-cover">
+{{ end }}
+
     {{ partial "nav.html" . }}
 
 

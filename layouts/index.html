@@ -1,8 +1,11 @@
 {{ define "main" }}
-	<main>
+	{{/*  <header>
+		{{ partial "hero.html" .}}
+	</header>  */}}
+
+<main>
 
 
-	{{ partial "hero.html" .}}
 
 	{{/*  {{ partial "testimonial.html" (.Site.GetPage "testimonial.md")}}  */}}
 	{{ partial "testimonial.html" .}}
@@ -24,8 +27,7 @@
 	{{ range $.Site.Home.AllTranslations }}
 	<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
 	{{ end }}
-
-</ul>
-	</main>
+	</ul>
+</main>
 {{ end }}
 
