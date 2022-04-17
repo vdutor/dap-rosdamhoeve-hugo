@@ -1,33 +1,18 @@
-{{ define "main" }}
-	{{/*  <header>
-		{{ partial "hero.html" .}}
-	</header>  */}}
+{{ define "main" }} {{/*
+<header>{{ partial "hero.html" .}}</header>
+*/}}
 
 <main>
+  {{/* {{ partial "testimonial.html" (.Site.GetPage "testimonial.md")}} */}} {{
+  partial "testimonial.html" .}} {{/* {{ $faqs.Params.question }} */}} {{/* {{
+  $faqs := .Site.GetPage "/faq" }} {{ range $faqs }} {{.Title}} {{ end }} */}}
+  {{/* {{ range (where site.RegularPages "Type" "in" "faq") }}
+  {{.Params.question}} {{ end }} */}} {{ partial "faq.html" .}}
 
-
-
-	{{/*  {{ partial "testimonial.html" (.Site.GetPage "testimonial.md")}}  */}}
-	{{ partial "testimonial.html" .}}
-
-	{{/*  {{ $faqs.Params.question }}  */}}
-
-	{{/*  {{ $faqs := .Site.GetPage "/faq" }}
-	{{ range $faqs }}
-		{{.Title}}
-	{{ end }}  */}}
-	{{/*  {{ range (where site.RegularPages "Type" "in" "faq") }}
-		{{.Params.question}}
-	{{ end }}   */}}
-
-
-	{{ partial "faq.html" .}}
-
-	<ul>
-	{{ range $.Site.Home.AllTranslations }}
-	<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-	{{ end }}
-	</ul>
+  <ul>
+    {{ range $.Site.Home.AllTranslations }}
+    <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+    {{ end }}
+  </ul>
 </main>
 {{ end }}
-

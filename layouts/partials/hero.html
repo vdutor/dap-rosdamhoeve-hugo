@@ -1,25 +1,32 @@
-{{ with .Site.GetPage "hero.md" }}
-
-{{ if eq (os.Getenv "HUGO_ENV") "production"}}
-<div class="flex flex-col justify-center w-screen h-screen bg-[url('/dap-rosdamhoeve-hugo/img/bg-image.jpg')] bg-center bg-cover">
-{{ else }}
-<div class="flex flex-col justify-center w-screen h-screen bg-[url('/img/bg-image.jpg')] bg-center bg-cover">
-{{ end }}
-
-    {{ partial "nav.html" . }}
-
-
-    {{/*  <div class="container mx-auto">  */}}
-        {{/*  <div class="absolute left-0 bottom-0 flex flex-col m-5 text-white">  */}}
-        <div class="flex-1 flex flex-wrap container justify-end flex-col text-white mx-2 md:mx-auto">
-            <h1 class="text-3xl md:text-4xl my-2">{{ .Params.title }}</h1>
-            <h2 class="text-xl md:text-2xl">{{ .Params.slogan }}</h2>
+{{ with .Site.GetPage "hero.md" }} {{ if eq (os.Getenv "HUGO_ENV")
+"production"}}
+<div
+  class="flex h-screen w-screen flex-col justify-center bg-[url('/dap-rosdamhoeve-hugo/img/bg-image.jpg')] bg-cover bg-center"
+>
+  {{ else }}
+  <div
+    class="flex h-screen w-screen flex-col justify-center bg-[url('/img/bg-image.jpg')] bg-cover bg-center"
+  >
+    {{ end }} {{ partial "nav.html" . }} {{/*
+    <div class="container mx-auto">
+      */}} {{/*
+      <div class="absolute left-0 bottom-0 m-5 flex flex-col text-white">
+        */}}
+        <div
+          class="container mx-2 flex flex-1 flex-col flex-wrap justify-end text-white md:mx-auto"
+        >
+          <h1 class="my-2 text-3xl md:text-4xl">{{ .Params.title }}</h1>
+          <h2 class="text-xl md:text-2xl">{{ .Params.slogan }}</h2>
         </div>
 
-        <div class="text-white py-10 justify-center items-center mx-auto mt-10">
-        {{ partial "svg/arrow-down.svg" .}}
+        <div class="mx-auto mt-10 items-center justify-center py-10 text-white">
+          {{ partial "svg/arrow-down.svg" .}}
         </div>
-    {{/*  </div>  */}}
+        {{/*
+      </div>
+      */}}
+    </div>
+
+    {{ end }}
+  </div>
 </div>
-
-{{ end }}
