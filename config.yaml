@@ -1,4 +1,5 @@
-baseURL: ""
+baseURL: "https://vdutor.github.io/dap-rosdamhoeve-hugo"
+canonifyurls: true
 languageCode: "nl-be"
 title: "DAP Rosdamhoeve"
 
