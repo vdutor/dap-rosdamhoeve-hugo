@@ -1,8 +1,8 @@
 baseURL: ""
-languageCode: "en-us"
+languageCode: "nl-be"
 title: "DAP Rosdamhoeve"
 
-Params:
+params:
   description: "Website Dierenartsenpraktijk Rosdamhoeve"
   author: "DAP Rosdamhoeve"
 
