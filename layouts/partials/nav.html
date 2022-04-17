@@ -28,13 +28,14 @@
       >
       <a href="#faq" class="mr-5 hover:underline">{{ T "FAQ" | humanize }}</a>
     </nav>
-    <button
+    <a
+      href="tel:{{ .Site.Data.info.mobileLong }}"
       class="mt-4 inline-flex items-center rounded border-0 bg-blueGreen py-2 px-5 text-base hover:bg-blueGreen/90 focus:outline-none md:mt-0"
     >
       <div class="mr-2 h-5 w-5 text-white">
         {{ partial "svg/telephone.svg" . }}
       </div>
-      {{ .Site.Data.info.mobile }}
-    </button>
+      {{ .Site.Data.info.mobileStr }}
+    </a>
   </div>
 </nav>
