@@ -1,0 +1,25 @@
+  <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="text-black focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-4 text-center inline-flex items-center " type="button">
+    {{/*  <span class="w-4 h-4 rounded-xl">
+        {{ partial "svg/nl.svg" .}} 
+    </span>   */}}
+    <span class="w-4 h-3 rounded-full">
+        {{ partial (printf `svg/%s.svg` .Language.Lang) .}} 
+    </span>
+    {{/*  <span class="ml-2">{{ .Site.Language.LanguageName }} </span>  */}}
+    <span class="ml-1 w-4 h-3 text-black">{{ partial "svg/arrow-down.svg" .}}</span>
+  </button>
+  <!-- Dropdown menu -->
+  <div id="dropdown" class="hidden z-10 bg-white rounded divide-y divide-gray-200 shadow">
+      <ul class="flex flex-col mx-2 py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+        {{ range $.Site.Home.AllTranslations }}
+        <li>
+        <a href="{{ .Permalink }}" class="block py-2 px-4">
+              {{ .Language.LanguageName }}
+                {{/*  <span class="w-3 h-3">  */}}
+                    {{/*  {{ partial (printf `svg/%s.svg` .Language) .}}   */}}
+                {{/*  </span>  */}}
+        </a>
+        </li>
+        {{ end }}
+      </ul>
+  </div>

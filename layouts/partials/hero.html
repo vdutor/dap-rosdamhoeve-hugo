@@ -1,25 +1,29 @@
 {{ with .Site.GetPage "hero.md" }} {{ if eq (os.Getenv "HUGO_ENV")
 "production"}}
 <div
+  {{/*  class="flex h-screen w-screen flex-col justify-center bg-[url('/dap-rosdamhoeve-hugo/img/bg-image.jpg')] bg-cover bg-center"  */}}
   class="flex h-screen w-screen flex-col justify-center bg-[url('/dap-rosdamhoeve-hugo/img/bg-image.jpg')] bg-cover bg-center"
 >
   {{ else }}
   <div
-    class="flex h-screen w-screen flex-col justify-center bg-[url('/img/bg-image.jpg')] bg-cover bg-center"
+    class="flex h-screen w-screen flex-col justify-center bg-blue bg-cover bg-center"
+    {{/*  class="flex h-screen w-screen flex-col justify-center bg-[url('/img/bg-image.jpg')] bg-cover bg-center"  */}}
   >
-    {{ end }} {{ partial "nav.html" . }} {{/*
+    {{ end }} 
+    
+    {{ partial "nav2.html" . }} {{/*
     <div class="container mx-auto">
       */}} {{/*
       <div class="absolute left-0 bottom-0 m-5 flex flex-col text-white">
         */}}
         <div
-          class="container mx-2 flex flex-1 flex-col flex-wrap justify-end text-white md:mx-auto"
+          class="container px-2 sm:px-4 mb-10 flex flex-1 flex-col flex-wrap justify-end text-white md:mx-auto"
         >
           <h1 class="my-2 text-3xl md:text-4xl">{{ .Params.title }}</h1>
           <h2 class="text-xl md:text-2xl">{{ .Params.slogan }}</h2>
         </div>
 
-        <div class="mx-auto mt-10 items-center justify-center py-10 text-white">
+        <div class="w-20 h-20 mx-auto items-center justify-center text-white hover:transition-opacity duration-1000">
           {{ partial "svg/arrow-down.svg" .}}
         </div>
         {{/*
