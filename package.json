@@ -3,9 +3,10 @@
     "dev:css": "npx tailwindcss -i input.css -o static/css/output.css -w",
     "dev:hugo": "hugo server",
     "dev": "run-p dev:*",
-    "build:css": "NODE_ENV=production npx tailwindcss -i input.css -o static/css/output.css -m",
+    "build:css": "NODE_ENV=production npx tailwindcss -i input.css -o static/css/output.css",
     "build:hugo": "HUGO_ENV=production hugo",
-    "build": "run-s build:*"
+    "build": "run-s build:*",
+    "pretty": "prettier --write \"./**/*.{html,svg}\"" 
   },
   "devDependencies": {
     "npm-run-all": "^4.1.5",
