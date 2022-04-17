@@ -17,8 +17,8 @@ jobs:
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
         run: |
-          | npm install npm-run-all
-          | npm run build
+          npm install npm-run-all
+          npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
