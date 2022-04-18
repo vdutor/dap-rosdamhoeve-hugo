@@ -1,5 +1,5 @@
 ---
-question: openingsuren?
+question: Openingsuren?
 ---
 
 Maandag tot vrijdag, tussen 9u en 19u.

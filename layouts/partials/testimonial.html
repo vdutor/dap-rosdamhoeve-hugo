@@ -1,12 +1,12 @@
 {{ with .Site.GetPage "testimonial.md" }}
-  <section class="body-font bg-blueGreen text-gray-100">
+  <section class="body-font w-full bg-blueGreen text-white ">
     <div class="container mx-auto px-5 py-24">
       <div class="mx-auto w-full text-center lg:w-3/4 xl:w-1/2">
         <div class="mx-auto h-8 w-8">{{ partial "svg/quote.svg" . }}</div>
 
         <p class="mt-5 text-lg leading-relaxed">{{ .Content }}</p>
         <span
-          class="mt-8 mb-6 inline-block h-1 w-10 rounded bg-gray-200"
+          class="mt-8 mb-6 inline-block h-1 w-10 rounded"
         ></span>
         <h2 class="title-font text-sm font-medium tracking-wider text-gray-100">
           {{ .Params.author }}

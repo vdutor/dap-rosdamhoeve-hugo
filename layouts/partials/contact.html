@@ -1,0 +1,31 @@
+      <!-- Contact -->
+      <section id="contact" class="container mx-auto px-2 my-10 text-gray-600 body-font">
+          <h1 class="w-full text-center text-2xl my-4"text>
+                {{ T "contact" | humanize }}
+          </h1>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="h-52 md:h-auto md:col-span-2">
+            <iframe width="100%" height="100%" frameborder="0"  class="rounded-lg" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Dierenarts%20Rosdamhoeve+(Dierenarts%20Rosdamhoeve)&ie=UTF8&t=&z=10&iwloc=B&output=embed" style="filter: contrast(1.0);"></iframe>
+            </div>
+            <div class="">
+            <div class="flex flex-col py-6 rounded-md shadow-md">
+              <div class="px-6">
+                <h2 class="title-font font-semibold tracking-widest text-xs uppercase">{{ T "address" }}</h2>
+                <p class="mt-1"><span> {{ .Site.Data.info.street }}</span>, <span> {{ .Site.Data.info.city }} </span></p>
+              </div>
+              <div class="px-6 mt-4">
+                <h2 class="title-font font-semibold tracking-widest text-xs uppercase">{{ T "email" }}</h2>
+                <a href="mailto:{{ .Site.Data.info.email }}"class="text-blueGreen leading-relaxed">{{ .Site.Data.info.email }}</a>
+              </div>
+              <div class="px-6 mt-4">
+                <h2 class="title-font font-semibold tracking-widest text-xs uppercase">{{ T "mobile" }}</h2>
+                <a href="tel:{{ .Site.Data.info.mobileLong }}" class="leading-relaxed">{{ .Site.Data.info.mobileStr }}</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        {{/*  <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          </div>
+        </div>  */}}
+      </section>

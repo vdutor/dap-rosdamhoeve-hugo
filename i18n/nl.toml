@@ -12,3 +12,12 @@ other = "diensten"
 
 [FAQ]
 other = "vragen"
+
+[address]
+other = "adres"
+
+[email]
+other = "email"
+
+[mobile]
+other = "GSM nummer"

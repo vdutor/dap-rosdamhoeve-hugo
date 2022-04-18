@@ -12,3 +12,12 @@ other = "services"
 
 [FAQ]
 other = "FAQ"
+
+[address]
+other = "address"
+
+[email]
+other = "email"
+
+[mobile]
+other = "mobile"
