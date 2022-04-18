@@ -1,7 +1,10 @@
-<footer class="flex flex-row h-20 bg-lightBlue justify-between items-center">
-  <p>
+<footer class="w-full">
+  <div class="container mx-auto h-24 flex flex-row justify-between items-center ">
+
+  <p class="">
     &copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   </p>
 
   {{ partial "language-selector.html" . }}
+  </div>
 </footer>

@@ -1,7 +1,8 @@
       <!-- Contact -->
       <section id="contact" class="container mx-auto px-2 my-10">
-          <h1 class="w-full text-center text-2xl my-4"text>
-                {{ T "contact" | humanize }}
+            <h1 class="font-playfair text-center text-3xl md:text-4xl mb-10">{{ T "contact" | humanize }}</h1> 
+          {{/*  <h1 class="w-full text-center text-3xl my-4"text>  */}}
+                
           </h1>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="h-96 md:col-span-2">
@@ -10,15 +11,15 @@
             <div class="h-auto">
             <div class="flex flex-col py-6 md:border-l">
               <div class="px-6">
-                <h2 class="title-font font-semibold tracking-widest text-xs uppercase">{{ T "address" }}</h2>
+                <h2 class="title-font font-semibold tracking-widest text-xs uppercase text-gray-600">{{ T "address" }}</h2>
                 <p class="mt-1"><span> {{ .Site.Data.info.street }}</span>, <span> {{ .Site.Data.info.city }} </span></p>
               </div>
               <div class="px-6 mt-4">
-                <h2 class="title-font font-semibold tracking-widest text-xs uppercase">{{ T "email" }}</h2>
-                <a href="mailto:{{ .Site.Data.info.email }}"class="text-blueGreen leading-relaxed">{{ .Site.Data.info.email }}</a>
+                <h2 class="title-font font-semibold tracking-widest text-xs uppercase text-gray-600">{{ T "email" }}</h2>
+                <a href="mailto:{{ .Site.Data.info.email }}"class="leading-relaxed">{{ .Site.Data.info.email }}</a>
               </div>
               <div class="px-6 mt-4">
-                <h2 class="title-font font-semibold tracking-widest text-xs uppercase">{{ T "mobile" }}</h2>
+                <h2 class="title-font font-semibold tracking-widest text-xs uppercase text-gray-600">{{ T "mobile" }}</h2>
                 <a href="tel:{{ .Site.Data.info.mobileLong }}" class="leading-relaxed">{{ .Site.Data.info.mobileStr }}</a>
               </div>
             </div>

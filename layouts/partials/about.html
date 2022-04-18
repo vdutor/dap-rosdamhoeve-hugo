@@ -1,9 +1,9 @@
 <!-- About -->
 {{ with .Site.GetPage "about.md" }}
-  <section id="about" class="body-font text-gray-900">
-    <div class="container mx-auto flex flex-col px-5 py-24">
+  <section id="about">
+    <div class="container mx-auto flex flex-col px-5 mt-10">
       <div class="mx-auto">
-        <h1 class="text-3xl md:text-4xl">{{ .Params.title }}</h1> 
+        <h1 class="font-playfair text-3xl md:text-4xl">{{ .Params.title }}</h1> 
         {{/*  <h1
           class="title-font mb-4 text-2xl font-medium text-gray-900 sm:text-3xl"
         >
@@ -19,7 +19,7 @@
             <img class="h-40 w-40 p-1 rounded-full ring-2 ring-blueGreen" src="/img/pascale2.jpg" alt="Pascale Wantiez">
             </div>
             <div class="flex flex-col items-center justify-center text-center">
-              <h2 class="title-font mt-4 text-lg font-medium text-gray-900">
+              <h2 class="title-font mt-4 text-lg font-medium">
                 Dr. Pascale Wantiez
               </h2>
               <div class="mt-2 mb-4 h-1 w-12 rounded bg-blueGreen"></div>
@@ -32,7 +32,7 @@
           <div
             class="mt-4 border-t border-gray-200 pt-4 text-center sm:mt-0 sm:w-2/3 sm:border-l sm:border-t-0 sm:py-8 sm:pl-8 sm:text-left"
           >
-            <p class="mb-4 text-lg leading-relaxed">
+            <p class="mb-4 leading-6">
                 {{ .Content }}
             </p>
           </div>
