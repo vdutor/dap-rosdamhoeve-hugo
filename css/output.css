@@ -770,12 +770,12 @@ input[type=file]::file-selector-button:hover {
   margin-right: 0.5rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mt-4 {
@@ -786,12 +786,16 @@ input[type=file]::file-selector-button:hover {
   margin-top: 0.5rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .ml-2 {
@@ -824,10 +828,6 @@ input[type=file]::file-selector-button:hover {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 
 .block {
@@ -870,12 +870,16 @@ input[type=file]::file-selector-button:hover {
   height: auto;
 }
 
-.h-20 {
-  height: 5rem;
+.h-24 {
+  height: 6rem;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.h-20 {
+  height: 5rem;
 }
 
 .h-4 {
@@ -1070,11 +1074,6 @@ input[type=file]::file-selector-button:hover {
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
-.bg-lightBlue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(143 186 172 / var(--tw-bg-opacity));
-}
-
 .bg-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(117 171 176 / var(--tw-bg-opacity));
@@ -1118,11 +1117,6 @@ input[type=file]::file-selector-button:hover {
   padding-right: 1.25rem;
 }
 
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1136,6 +1130,11 @@ input[type=file]::file-selector-button:hover {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .px-4 {
@@ -1173,6 +1172,11 @@ input[type=file]::file-selector-button:hover {
   padding-bottom: 0.75rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -1187,6 +1191,10 @@ input[type=file]::file-selector-button:hover {
 
 .text-center {
   text-align: center;
+}
+
+.font-playfair {
+  font-family: Playfair Display, serif;
 }
 
 .text-3xl {
@@ -1214,14 +1222,19 @@ input[type=file]::file-selector-button:hover {
   line-height: 1rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-medium {
@@ -1236,8 +1249,20 @@ input[type=file]::file-selector-button:hover {
   font-weight: 700;
 }
 
+.font-extralight {
+  font-weight: 200;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
 .uppercase {
   text-transform: uppercase;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .leading-relaxed {
@@ -1262,9 +1287,9 @@ input[type=file]::file-selector-button:hover {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.text-blueGreen {
+.text-gray-600 {
   --tw-text-opacity: 1;
-  color: rgb(14 111 112 / var(--tw-text-opacity));
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -1549,18 +1574,14 @@ input[type=file]::file-selector-button:hover {
     line-height: 2.5rem;
   }
 
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .md\:font-medium {
-    font-weight: 500;
   }
 
   .md\:text-white {

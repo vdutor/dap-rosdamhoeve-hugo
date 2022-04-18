@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <title>DAP Rosdamhoeve</title>
     
       <meta name="description" content="Website Dierenartsenpraktijk Rosdamhoeve" />
@@ -12,6 +13,10 @@
     
       <meta name="author" content="DAP Rosdamhoeve" />
     
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://vdutor.github.io/dap-rosdamhoeve-hugo/css/output.css" />
 
     <link rel="alternate" type="application/rss+xml" href="https://vdutor.github.io/dap-rosdamhoeve-hugo/nl/index.xml" title="DAP Rosdamhoeve">
@@ -33,7 +38,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" > <path d="M11 2a2 2 0 00-2 2v5H4a2 2 0 00-2 2v2c0 1.1.9 2 2 2h5v5c0 1.1.9 2 2 2h2a2 2 0 002-2v-5h5a2 2 0 002-2v-2a2 2 0 00-2-2h-5V4a2 2 0 00-2-2h-2z" /> </svg>
 
       </div>
-      <span class="self-center whitespace-nowrap text-xl font-semibold"
+      <span class="self-center whitespace-nowrap text-xl font-extralight font-playfair"
         >DAP Rosdamhoeve
       </span>
     </a>
@@ -79,7 +84,7 @@
       id="mobile-menu-4"
     >
       <ul
-        class="mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium"
+        class="mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 font-light"
       >
         <li>
           <a
@@ -95,13 +100,7 @@
             >Contact</a
           >
         </li>
-        <li>
-          <a
-            href="#services"
-            class="block text-center border-b-2 border-gray-50  bg-white text-black py-3 pr-4 pl-3 md:border-0 md:p-0 md:bg-transparent md:text-white"
-            >Diensten</a
-          >
-        </li>
+        
         <li>
           <a
             href="#faq"
@@ -118,8 +117,8 @@
         <div
           class="container px-2 sm:px-4 mb-10 flex flex-1 flex-col flex-wrap justify-end text-white md:mx-auto"
         >
-          <h1 class="my-2 text-3xl md:text-4xl">DAP Rosdamhoeve</h1>
-          <h2 class="text-xl md:text-2xl">Een dierenartsenpraktijk met een hart voor mens en dier.</h2>
+          <h1 class="font-playfair mb-6 text-4xl md:text-6xl">DAP Rosdamhoeve</h1>
+          <h2 class="text-base font-extralight md:text-2xl">Een dierenartsenpraktijk met een hart voor mens en dier.</h2>
         </div>
 
         <div class="w-20 h-20 mx-auto items-center justify-center text-white hover:transition-opacity duration-1000 z-30">
@@ -141,10 +140,10 @@
 
   
 
-  <section id="about" class="body-font text-gray-900">
-    <div class="container mx-auto flex flex-col px-5 py-24">
+  <section id="about">
+    <div class="container mx-auto flex flex-col px-5 mt-10">
       <div class="mx-auto">
-        <h1 class="text-3xl md:text-4xl">Over de Praktijk</h1> 
+        <h1 class="font-playfair text-3xl md:text-4xl">Over de Praktijk</h1> 
         
       </div>
       <div class="mx-auto lg:w-4/6">
@@ -156,7 +155,7 @@
             <img class="h-40 w-40 p-1 rounded-full ring-2 ring-blueGreen" src="https://vdutor.github.io/dap-rosdamhoeve-hugo/img/pascale2.jpg" alt="Pascale Wantiez">
             </div>
             <div class="flex flex-col items-center justify-center text-center">
-              <h2 class="title-font mt-4 text-lg font-medium text-gray-900">
+              <h2 class="title-font mt-4 text-lg font-medium">
                 Dr. Pascale Wantiez
               </h2>
               <div class="mt-2 mb-4 h-1 w-12 rounded bg-blueGreen"></div>
@@ -169,7 +168,7 @@
           <div
             class="mt-4 border-t border-gray-200 pt-4 text-center sm:mt-0 sm:w-2/3 sm:border-l sm:border-t-0 sm:py-8 sm:pl-8 sm:text-left"
           >
-            <p class="mb-4 text-lg leading-relaxed">
+            <p class="mb-4 leading-6">
                 <p>De dierenartsenpraktijk is gelegen naast het Borluutkasteel, op het drie-gemeentepunt: Sint-Denijs-Westem, Sint-Martens-Latem en Afsnee.
 De praktijk beschikt over ruime parkeergelegenheid.
 Consultaties en operaties gebeuren van maandag tot vrijdag van 8u30 tot 18u30.
@@ -177,7 +176,7 @@ Is uw huisdier ziek of gekwetst? Is er plots iets gaande en maakt U zich zorgen?
 📞
 <a href="tel:32475207879" class="ml-2 underline decoration-dotted">(&#43;32) 475 20 78 79</a>
 </span>
-</p>
+.</p>
 
             </p>
           </div>
@@ -189,8 +188,9 @@ Is uw huisdier ziek of gekwetst? Is er plots iets gaande en maakt U zich zorgen?
 
         
       <section id="contact" class="container mx-auto px-2 my-10">
-          <h1 class="w-full text-center text-2xl my-4"text>
-                Contact
+            <h1 class="font-playfair text-center text-3xl md:text-4xl mb-10">Contact</h1> 
+          
+                
           </h1>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="h-96 md:col-span-2">
@@ -199,15 +199,15 @@ Is uw huisdier ziek of gekwetst? Is er plots iets gaande en maakt U zich zorgen?
             <div class="h-auto">
             <div class="flex flex-col py-6 md:border-l">
               <div class="px-6">
-                <h2 class="title-font font-semibold tracking-widest text-xs uppercase">adres</h2>
+                <h2 class="title-font font-semibold tracking-widest text-xs uppercase text-gray-600">adres</h2>
                 <p class="mt-1"><span> Leieriggestraat 1</span>, <span> 9051 Afsnee </span></p>
               </div>
               <div class="px-6 mt-4">
-                <h2 class="title-font font-semibold tracking-widest text-xs uppercase">email</h2>
-                <a href="mailto:pascale.wantiez@telenet.be"class="text-blueGreen leading-relaxed">pascale.wantiez@telenet.be</a>
+                <h2 class="title-font font-semibold tracking-widest text-xs uppercase text-gray-600">email</h2>
+                <a href="mailto:pascale.wantiez@telenet.be"class="leading-relaxed">pascale.wantiez@telenet.be</a>
               </div>
               <div class="px-6 mt-4">
-                <h2 class="title-font font-semibold tracking-widest text-xs uppercase">GSM nummer</h2>
+                <h2 class="title-font font-semibold tracking-widest text-xs uppercase text-gray-600">GSM nummer</h2>
                 <a href="tel:32475207879" class="leading-relaxed">(&#43;32) 475 20 78 79</a>
               </div>
             </div>
@@ -216,48 +216,61 @@ Is uw huisdier ziek of gekwetst? Is er plots iets gaande en maakt U zich zorgen?
         
       </section>
 
+  <section id="faq" class="container mx-auto">
+  <h1 class="font-playfair text-center text-3xl md:text-4xl mb-10">Vragen</h1> 
   <div
-  id="faq"
-  class="container mx-auto grid grid-cols-1 gap-4 px-4 md:grid-cols-2"
->
-  
-  
+    class="grid grid-cols-1 gap-4 px-4 md:grid-cols-2"
+  >
     
-    <div class="flex flex-col">
-      <h1 class="my-2 text-lg font-bold">Openingsuren?</h1>
-      <div><p>Maandag tot vrijdag, tussen 9u en 19u.
-Boek bij voorkeur zelf online je afspraak.
-Aarzel echter niet om bij twijfel te bellen op 📞  09 328 16 69 of een berichtje in te spreken op onze voicemail, dan bellen we je zo snel mogelijk terug.
-Buiten onze openingsuren kan je voor vragen en inlichtingen ook e-mailen (<a href="mailto:info@katenko.be">info@katenko.be</a>) of een berichtje achterlaten op onze facebook-pagina.</p>
-</div>
-    </div>
-  
     
-    <div class="flex flex-col">
-      <h1 class="my-2 text-lg font-bold">Komen jullie ook op huisbezoek?</h1>
-      <div><p>Wij doen ook huisbezoeken. In de praktijk hebben we al het nodige materiaal ter beschikking, dus bij voorkeur kom je met je huisdier tot bij ons. Lukt dat niet, dan komen we tot bij jou tegen een iets hoger tarief dan een praktijkconsultatie.</p>
+      
+      <div class="flex flex-col">
+        <h1 class="my-2 font-bold">Openingsuren?</h1>
+        <div><p>Maandag tot vrijdag, tussen 8:30 en 18:30.
+Wij werken enkel op afspraak. Voor een afspraak gelieve te bellen <span>
+📞
+<a href="tel:32475207879" class="ml-2 underline decoration-dotted">(&#43;32) 475 20 78 79</a>
+</span>
+ of een berichtje in te spreken op onze voicemail, dan bellen we je zo snel mogelijk terug.
+Buiten onze openingsuren kan je voor vragen en inlichtingen ook e-mailen <span>
+✉
+️ <a href="mailto:pascale.wantiez@telenet.be" class="ml-2 underline decoration-dotted">pascale.wantiez@telenet.be</a>
+</span>
+.</p>
 </div>
-    </div>
-  
+      </div>
     
-    <div class="flex flex-col">
-      <h1 class="my-2 text-lg font-bold">Kan ik ook gewoon langskomen?</h1>
-      <div><p>We werken op afspraak, zowel voor een routineonderzoek, een thuisbezoek of een operatie. Bel ons op 📞 09 328 16 69, stuur ons een email of boek bij voorkeur zelf online je afspraak:</p>
+      
+      <div class="flex flex-col">
+        <h1 class="my-2 font-bold">Komen jullie ook op huisbezoek?</h1>
+        <div><p>Wij doen ook huisbezoeken. In de praktijk hebben we al het nodige materiaal ter beschikking, dus bij voorkeur kom je met je huisdier tot bij ons. Lukt dat niet, dan komen we tot bij jou tegen een iets hoger tarief dan een praktijkconsultatie. Gelieve ons te bellen voor een afspraak <span>
+📞
+<a href="tel:32475207879" class="ml-2 underline decoration-dotted">(&#43;32) 475 20 78 79</a>
+</span>
+.</p>
 </div>
-    </div>
-  
+      </div>
     
-    <div class="flex flex-col">
-      <h1 class="my-2 text-lg font-bold">Welke huisdieren behandelen jullie (niet)?</h1>
-      <div><p>De praktijk is voornamelijk gericht op het behandelen (verzorging &amp; operaties) van kleine huisdieren, zoals katten 🐈, honden 🐕 en konijnen 🐇. Voor alle andere huisdieren 🐓🐁🦒🐳 proberen we je ook zo goed mogelijk te helpen, of sturen we door naar specialisten ter zake.</p>
+      
+      <div class="flex flex-col">
+        <h1 class="my-2 font-bold">Kan ik ook gewoon langskomen?</h1>
+        <div><p>We werken enkel op afspraak, zowel voor een routineonderzoek, een thuisbezoek of een operatie.</p>
 </div>
-    </div>
-  
+      </div>
+    
+      
+      <div class="flex flex-col">
+        <h1 class="my-2 font-bold">Welke huisdieren behandelen jullie (niet)?</h1>
+        <div><p>De praktijk is voornamelijk gericht op het behandelen (verzorging &amp; operaties) van kleine huisdieren, zoals katten, honden en konijnen. Voor alle andere huisdieren proberen we je ook zo goed mogelijk te helpen, of sturen we door naar specialisten ter zake.</p>
 </div>
+      </div>
+    
+  </div>
+</section>
 
   
-  <section class="body-font w-full bg-blueGreen text-white ">
-    <div class="container mx-auto px-5 py-24">
+  <section class="body-font w-full bg-blueGreen text-white mt-10 ">
+    <div class="container mx-auto px-5 py-10">
       <div class="mx-auto w-full text-center lg:w-3/4 xl:w-1/2">
         <div class="mx-auto h-8 w-8"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-200 mb-8" viewBox="0 0 975.036 975.036"> <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"> </path> </svg>
 </div>
@@ -287,8 +300,10 @@ Pascale, bedankt voor al die jaren dat ik op jou kan rekenen!</p>
 
 </main>
 
-    <footer class="flex flex-row h-20 bg-lightBlue justify-between items-center">
-  <p>
+    <footer class="w-full">
+  <div class="container mx-auto h-24 flex flex-row justify-between items-center ">
+
+  <p class="">
     &copy; 2022 <a href="https://vdutor.github.io/dap-rosdamhoeve-hugo">DAP Rosdamhoeve</a>
   </p>
 
@@ -340,6 +355,7 @@ Pascale, bedankt voor al die jaren dat ik op jou kan rekenen!</p>
         </li>
         
       </ul>
+  </div>
   </div>
 </footer>
 

@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question1/</guid>
-      <description>Monday to Friday, between 9am and 7pm. Preferably book your appointment online yourself. However, if in doubt, do not hesitate to call  📞 (&amp;#43;32) 475 20 78 79  or leave a message on our voicemail, and we will call you back as soon as possible. Outside our opening hours you can also e-mail for questions and information  ✉ ️ pascale.wantiez@telenet.be  or leave a message on our Facebook page.</description>
+      <description>Monday to Friday, between 8.30am and 6.30pm. However, we work by appointment. Please call  📞 (&amp;#43;32) 475 20 78 79  or leave a message on our voicemail, and we will call you back as soon as possible. Outside our opening hours you can also e-mail for questions and information  ✉ ️ pascale.wantiez@telenet.be  .</description>
     </item>
     
     <item>
@@ -21,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question2/</guid>
-      <description>We also do home visits. In practice we have all the necessary equipment available, so it is preferable to come to us with your pet. If that is not possible, we will come to you at a slightly higher rate than a practical consultation. {{ .Site.Data.info.mobile | markdownify}}</description>
+      <description>We also do home visits. In practice we have all the necessary equipment available, so it is preferable to come to us with your pet. If that is not possible, we will come to you at a slightly higher rate than a practical consultation. Please give us a call to book your home visit  📞 (&amp;#43;32) 475 20 78 79  .</description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question3/</guid>
-      <description>We work by appointment, whether for a routine examination, a home visit or an operation. Call us on 📞 09 328 16 69, send us an email or preferably book your appointment online:</description>
+      <description>We work only by appointment, whether for a routine examination, a home visit or an operation.</description>
     </item>
     
     <item>
@@ -39,7 +39,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vdutor.github.io/dap-rosdamhoeve-hugo/en/faq/question4/</guid>
-      <description>The practice is mainly focused on the treatment (care &amp;amp; operations) of small pets, such as cats 🐈, dogs 🐕 and rabbits . For all other pets 🐓🐁🦒🐳 we also try to help you as best as possible, or we send you to specialists in the field.</description>
+      <description>The practice is mainly focused on the treatment (care &amp;amp; operations) of small pets, such as cats, dogs and rabbits. For all other pets, we also try to help you as best as possible, or we send you to specialists in the field.</description>
     </item>
     
   </channel>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <title></title>
     
       <meta name="description" content="Website Dierenartsenpraktijk Rosdamhoeve" />
@@ -11,6 +12,10 @@
     
       <meta name="author" content="DAP Rosdamhoeve" />
     
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://vdutor.github.io/dap-rosdamhoeve-hugo/css/output.css" />
 
     
@@ -32,7 +37,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" > <path d="M11 2a2 2 0 00-2 2v5H4a2 2 0 00-2 2v2c0 1.1.9 2 2 2h5v5c0 1.1.9 2 2 2h2a2 2 0 002-2v-5h5a2 2 0 002-2v-2a2 2 0 00-2-2h-5V4a2 2 0 00-2-2h-2z" /> </svg>
 
       </div>
-      <span class="self-center whitespace-nowrap text-xl font-semibold"
+      <span class="self-center whitespace-nowrap text-xl font-extralight font-playfair"
         >DAP Rosdamhoeve
       </span>
     </a>
@@ -78,7 +83,7 @@
       id="mobile-menu-4"
     >
       <ul
-        class="mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium"
+        class="mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 font-light"
       >
         <li>
           <a
@@ -94,13 +99,7 @@
             >Contact</a
           >
         </li>
-        <li>
-          <a
-            href="#services"
-            class="block text-center border-b-2 border-gray-50  bg-white text-black py-3 pr-4 pl-3 md:border-0 md:p-0 md:bg-transparent md:text-white"
-            >Services</a
-          >
-        </li>
+        
         <li>
           <a
             href="#faq"
@@ -117,8 +116,8 @@
         <div
           class="container px-2 sm:px-4 mb-10 flex flex-1 flex-col flex-wrap justify-end text-white md:mx-auto"
         >
-          <h1 class="my-2 text-3xl md:text-4xl">Vet Rosdamhoeve</h1>
-          <h2 class="text-xl md:text-2xl">A vet with a heart for people and animals</h2>
+          <h1 class="font-playfair mb-6 text-4xl md:text-6xl">Vet Rosdamhoeve</h1>
+          <h2 class="text-base font-extralight md:text-2xl">A vet with a heart for people and animals</h2>
         </div>
 
         <div class="w-20 h-20 mx-auto items-center justify-center text-white hover:transition-opacity duration-1000 z-30">
@@ -142,7 +141,7 @@
         >01.01.0001 00:00</time
       >
       <div>
-        <p>The practice is mainly focused on the treatment (care &amp; operations) of small pets, such as cats 🐈, dogs 🐕 and rabbits . For all other pets 🐓🐁🦒🐳 we also try to help you as best as possible, or we send you to specialists in the field.</p>
+        <p>The practice is mainly focused on the treatment (care &amp; operations) of small pets, such as cats, dogs and rabbits. For all other pets, we also try to help you as best as possible, or we send you to specialists in the field.</p>
 
       </div>
       
@@ -150,8 +149,10 @@
     </article>
   </main>
 
-    <footer class="flex flex-row h-20 bg-lightBlue justify-between items-center">
-  <p>
+    <footer class="w-full">
+  <div class="container mx-auto h-24 flex flex-row justify-between items-center ">
+
+  <p class="">
     &copy; 2022 <a href="https://vdutor.github.io/dap-rosdamhoeve-hugo">DAP Rosdamhoeve</a>
   </p>
 
@@ -206,6 +207,7 @@
         </li>
         
       </ul>
+  </div>
   </div>
 </footer>
 
