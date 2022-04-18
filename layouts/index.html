@@ -3,13 +3,11 @@
 */}}
 
 <main>
-  {{/* {{ partial "testimonial.html" (.Site.GetPage "testimonial.md")}} */}} {{
-  partial "testimonial.html" .}} {{/* {{ $faqs.Params.question }} */}} {{/* {{
-  $faqs := .Site.GetPage "/faq" }} {{ range $faqs }} {{.Title}} {{ end }} */}}
-  {{/* {{ range (where site.RegularPages "Type" "in" "faq") }}
-  {{.Params.question}} {{ end }} */}} {{ partial "faq.html" .}}
 
+  {{ partial "about.html" .}}
   {{ partial "contact.html" .}}
+  {{ partial "faq.html" .}}
+  {{ partial "testimonial.html" .}}
   
   <ul>
   </ul>
