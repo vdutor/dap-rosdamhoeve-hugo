@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vdutor.github.io/dap-rosdamhoeve-hugo/fr/about/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://vdutor.github.io/dap-rosdamhoeve-hugo/nl/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://vdutor.github.io/dap-rosdamhoeve-hugo/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://vdutor.github.io/dap-rosdamhoeve-hugo/fr/about/"
-                />
-  </url><url>
     <loc>https://vdutor.github.io/dap-rosdamhoeve-hugo/fr/faq/question1/</loc>
     <xhtml:link
                 rel="alternate"
@@ -103,6 +85,23 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://vdutor.github.io/dap-rosdamhoeve-hugo/fr/testimonial/"
+                />
+  </url><url>
+    <loc>https://vdutor.github.io/dap-rosdamhoeve-hugo/fr/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://vdutor.github.io/dap-rosdamhoeve-hugo/nl/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://vdutor.github.io/dap-rosdamhoeve-hugo/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://vdutor.github.io/dap-rosdamhoeve-hugo/fr/about/"
                 />
   </url><url>
     <loc>https://vdutor.github.io/dap-rosdamhoeve-hugo/fr/categories/</loc>
