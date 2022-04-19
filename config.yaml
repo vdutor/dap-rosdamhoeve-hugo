@@ -7,19 +7,21 @@ params:
   description: "Website Dierenartsenpraktijk Rosdamhoeve"
   author: "DAP Rosdamhoeve"
 
-defaultContentLang: nl
-defaultContentLanguageInSubdir: true
-
+defaultContentLanguageInSubdir: false
+defaultContentLanguage: nl
 languages:
   nl:
     contentDir: content/nl
     languageName: Nederlands
+    languageCode: nl-be
     weight: 1
   fr:
     contentDir: content/fr
     languageName: Français
+    languageCode: fr-be
     weight: 2
   en:
     contentDir: content/en
     languageName: English
+    languageCode: en-us
     weight: 3

@@ -1,6 +1,6 @@
 <nav class="px-2 py-4 text-white sm:px-4">
   <div class="container mx-auto flex flex-wrap items-center justify-between">
-    <a href="{{ .Site.BaseURL | absLangURL }}" class="flex items-center">
+    <a href="{{strings.TrimSuffix '/' .Site.BaseURL}}{{ .Site.BaseURL | relLangURL }}" class="flex items-center">
       {{/* <img
         src="/img/cross.svg"
         class="mr-3 h-6 sm:h-9 bg-white"

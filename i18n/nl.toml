@@ -21,3 +21,6 @@ other = "email"
 
 [mobile]
 other = "GSM nummer"
+
+[VAT]
+other = "BTW"

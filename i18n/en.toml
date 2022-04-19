@@ -21,3 +21,6 @@ other = "email"
 
 [mobile]
 other = "mobile"
+
+[VAT]
+other = "VAT"
