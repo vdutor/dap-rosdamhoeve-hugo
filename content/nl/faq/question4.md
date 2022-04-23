@@ -1,5 +1,5 @@
 ---
-question: Welke huisdieren behandelen jullie (niet)?
+question: Met welke huisdieren kan ik bij jullie terecht?
 ---
 
-De praktijk is voornamelijk gericht op het behandelen (verzorging & operaties) van kleine huisdieren, zoals katten, honden en konijnen. Voor alle andere huisdieren proberen we je ook zo goed mogelijk te helpen, of sturen we door naar specialisten ter zake. 
+Hoewel meer vertrouwt met honden en katten, zijn alle huisdieren welkom. Indien nodig stuur ik U door, na overleg,  naar de specialisten ter zake.
